@@ -22,8 +22,8 @@ div, document, body, img {
 
 #cardlist {
     display: grid;
-    grid-template-columns: 2.3in 0.1in 2.3in 0.1in 2.3in;
-    grid-template-rows: 3.3in 0.1in 3.3in 0.1in 3.3in;
+    grid-template-columns: 2.3in 0in 2.3in 0in 2.3in;
+    grid-template-rows: 3.3in 0in 3.3in 0in 3.3in;
 }
 
 img {
