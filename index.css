@@ -22,13 +22,13 @@ div, document, body, img {
 
 #cardlist {
     display: grid;
-    grid-template-columns: 2.5in 0.1in 2.5in 0.1in 2.5in;
-    grid-template-rows: 3.5in 0.1in 3.5in 0.1in 3.5in;
+    grid-template-columns: 2.3in 0.1in 2.3in 0.1in 2.3in;
+    grid-template-rows: 3.3in 0.1in 3.3in 0.1in 3.3in;
 }
 
 img {
-    width: 2.5in;
-    height: 3.5in;
+    width: 2.3in;
+    height: 3.3in;
 }
 
 .col1 {
