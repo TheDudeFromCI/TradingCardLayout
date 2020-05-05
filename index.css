@@ -1,0 +1,64 @@
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+div, document, body, img {
+    display: block;
+    box-sizing: border-box;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    width: 8.5in;
+    height: 11in;
+
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardlist {
+    display: grid;
+    grid-template-columns: 2.5in 0.1in 2.5in 0.1in 2.5in;
+    grid-template-rows: 3.5in 0.1in 3.5in 0.1in 3.5in;
+}
+
+img {
+    width: 2.5in;
+    height: 3.5in;
+}
+
+.col1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.col2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.col3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.row1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.row2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.row3 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
