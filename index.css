@@ -14,20 +14,20 @@ div, document, body, img {
 #content {
     width: 8.5in;
     height: 11in;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #cardlist {
     display: grid;
 
-    width: 7.5;
-    height: 10.5;
+    margin-top: 0.25in;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+    margin-bottom: 0.5in;
+
+    padding: 0in;
 
     grid-template-columns: 2.5in 0in 2.5in 0in 2.5in;
-    grid-template-rows: 3.5in 0in 3.5in 0in 3.5in;
+    grid-template-rows: 3.415in 0in 3.415in 0in 3.415in;
 }
 
 img {
